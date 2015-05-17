@@ -1,0 +1,166 @@
+		.body{
+			width: 100%;
+			overflow: hidden;
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+		}
+		#head{
+			height: 40px;
+			background: #0094FF;
+		}
+		#footer{
+			position: absolute;
+			height: 25px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			background: #0094FF;
+		}
+		#footer p{
+			margin: 4px;
+			color: #fff;
+		}
+		#main{
+			position: absolute;
+			top: 40px;
+			bottom: 25px;
+			left: 0px;
+			right: 0px;
+		}
+		#main .m1{
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			width: 300px;
+			background:transparent url("/img/bry.png") repeat-y scroll right center;
+		}
+		#main .m2{
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 300px;
+			width: 300px;
+			background:transparent url("/img/bry.png") repeat-y scroll right center;
+		}
+		#main .m3{
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 600px;
+			right: 0px;
+		}
+		#main .m1 .l2{
+			width: 180px;
+			margin: auto;
+		}		
+		.dnchat_a1 {
+		    float: left;
+		    width: 180px;
+		}
+		.dnchat_inputt {
+		    border-width: 2px medium medium 2px;
+		    border-style: solid none none solid;
+		    border-color: #0094FF -moz-use-text-color -moz-use-text-color #0094FF;
+		    -moz-border-top-colors: none;
+		    -moz-border-right-colors: none;
+		    -moz-border-bottom-colors: none;
+		    -moz-border-left-colors: none;
+		    border-image: none;
+		    width: 176px;
+		}
+		.dnchat_bt {
+		    border: 2px solid #0094FF;
+		    background: #DCF0FF none repeat scroll 0% 0%;
+		}
+		.information{
+			height: 93px;
+			background: transparent url("/img/bry.png") repeat-x scroll center bottom;
+		}
+		.div_avata{
+			height: 93px;
+			width: 90px;
+			float: left;
+		}
+		.div_information{
+			width: 210px;
+			height: 93px;
+			float: left;
+			background: transparent url("/img/bry.png") repeat-y scroll left center;
+		}
+		.divinformation{
+			width: 100%;
+			height: 31px;
+			clear: both;
+			float: left;
+			background: transparent url("/img/bry.png") repeat-x scroll center bottom;
+		}
+		.mgt {
+		    width: 195px;
+		    margin-top: 5px;
+		    margin-left: 7px;
+		    font-size: 15px;
+		    border: 0px none;
+		}
+		.friend{
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			right: 1px;
+			top: 93px;
+		}
+		.m2 .l1{
+			position: absolute;
+			left: 0px;
+			right: 1px;
+			top: 0px;
+			height: 31px;
+			background: transparent url("/img/bry.png") repeat-x scroll center bottom;
+		}
+		.m2 .l2{
+			position: absolute;
+			left: 0px;
+			right: 1px;
+			top: 31px;
+			bottom: 0px;
+		}
+		.lchat{
+			position: absolute;
+			bottom: 131px;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			background: transparent url("/img/bry.png") repeat-x scroll center bottom;
+		}
+		.bchat{
+			position: absolute;
+			bottom: 100px;
+			left: 0px;
+			right: 0px;
+			height: 31px;
+			background: transparent url("/img/bry.png") repeat-x scroll center bottom;
+		}
+		.tchat{
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			height: 100px;
+		}
+		.tchat div{
+			position: absolute;
+			bottom: 5px;
+			left: 5px;
+			right: 5px;
+			top: 5px;
+		}
+		.tchat div textarea{
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			resize: none;
+			border: 0px none;
+		}

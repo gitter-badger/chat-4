@@ -1,0 +1,22 @@
+extends ./master.jade
+block main
+	.m1.l1
+		.l2
+			form(id="form1", method="post", action="/login/user")
+				br
+				br
+				br
+				p(dnchat_a1) Email:
+				input(name="email" class="dnchat_inputt dnchat_a1" type="text")
+				br
+				br
+				p(dnchat_a1) Password:
+				input(name="pass" class="dnchat_inputt dnchat_a1" type="Password")
+				br
+				br
+				input(value="Login" class="dnchat_bt dnchat_a1" type="submit")
+				br
+				br
+				br
+			form(id="form2",action="./Signup")
+				input(class="dnchat_bt dnchat_a1",type="submit",value="Signup")
