@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        title #{title}
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+        script(type="text/javascript", src="/js/jquery-2.1.4.min.js")
+
+        link(rel="stylesheet" type="text/css" href="/css/reset.css")
+        link(rel="stylesheet" type="text/css" href="/css/main.css")
+    body
+        .body
+            #head
+                img(src="/img/logo.png", alt="Webchat")
+            #main
+                block main
+            #footer
+                p Developed by Nguyễn Ngọc Thanh
