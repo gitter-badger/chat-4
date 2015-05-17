@@ -1,4 +1,5 @@
 /node_modules
+/db
 db.bat
 dbo.bat
 npm-debug.log
