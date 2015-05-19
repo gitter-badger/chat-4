@@ -5,6 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -16,6 +20,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 
+<<<<<<< HEAD
+=======
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true
+}))
+>>>>>>> origin/master
 
 
 // uncomment after placing your favicon in /public
