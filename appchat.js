@@ -3,6 +3,7 @@ module.exports = function(io) {
 		console.log('a user connected');
 		socket.on('disconnect', function(){
 			console.log('user disconnected');
+			console.log(socket.request.session.abc);
 		});
 	});
 }
