@@ -7,7 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('chat:server');
 var http = require('http');
-
+var session = require("express-session");
 /**
  * Get port from environment and store in Express.
  */
@@ -20,6 +20,17 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
+var sessionMiddleware = session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true
+});
+var io = require('socket.io')(server);
+io.use(function(socket, next) {
+    sessionMiddleware(socket.request, socket.request.res, next);
+});
+var appchat = require('../appchat');
+appchat(io);
 
 /**
  * Listen on provided port, on all network interfaces.
