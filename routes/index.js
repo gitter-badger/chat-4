@@ -7,8 +7,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/test', function(req, res, next) {
-  res.render('test');
-  consoler.log(req.session.abc);
+	req.session.nome = "Usuario";
+	res.render('test');
+
 });
 
 module.exports = router;
